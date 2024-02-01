@@ -50,5 +50,6 @@ body {
     background-color: var(--grey);
     color: whitesmoke;
     font-family: 'Inter';
-    margin: auto;
+    display: grid;
+    align-items: center;
 }
