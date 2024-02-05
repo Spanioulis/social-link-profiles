@@ -47,9 +47,25 @@
 }
 
 body {
-    background-color: var(--grey);
+    background-color: var(--off-black);
     color: whitesmoke;
     font-family: 'Inter';
     display: grid;
     align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    gap: 1em;
+}
+
+article {
+    width: 250px;
+    background-color: var(--dark-grey);
+}
+
+ul {
+    list-style: none;
 }
